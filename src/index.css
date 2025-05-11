@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #171717; /* neutral-900 */
+  color: #fafafa; /* neutral-50 */
+}
+
+/* Add some global styles for better contrast */
+h1, h2, h3, h4, h5, h6 {
+  color: #fafafa; /* neutral-50 */
+}
+
+p {
+  color: #e6e6e6; /* neutral-200 */
+}
+
+/* Add subtle gradient overlay for better text readability */
+.gradient-overlay {
+  background: linear-gradient(to bottom, rgba(23, 23, 23, 0.8), rgba(23, 23, 23, 0.95));
+} 
